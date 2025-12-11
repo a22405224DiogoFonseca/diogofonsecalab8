@@ -78,7 +78,7 @@ export default function Contador() {
 
             <p>Lista de numeros</p>
             <ul>
-                {historico.map((num, index) => (
+                {historico.map((num: number, index: number) => (
                     <li key={index}>{num}</li>
                 ))}
             </ul>
